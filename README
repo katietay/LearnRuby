@@ -1,0 +1,241 @@
+# Learn Ruby
+
+A comprehensive collection of Ruby programming examples and exercises, covering fundamental concepts through practical implementations. This repository contains over 35 Ruby scripts demonstrating core programming concepts with detailed explanations and examples.
+
+These are practice files created while following the "Ruby Programming Language Full Course" from freeCodeCamp.org:
+https://www.youtube.com/watch?v=t_ispmWmdjY&t=474s
+
+Full Ruby documentation is available at:
+https://docs.ruby-lang.org/en/master/index.html
+
+## Overview
+
+This learning repository is structured to guide beginners through Ruby programming fundamentals, from basic syntax to object-oriented programming concepts. Each file includes detailed comments explaining what the code does and why, making it ideal for self-study.
+
+## Project Structure
+
+```
+LearnRuby/
+├── 01-fundamentals/              # Core Ruby syntax and basics
+│   ├── printing.rb               # Output methods (puts vs print)
+│   ├── comments.rb               # Single and multi-line comments
+│   ├── variables.rb              # Variable declaration and usage
+│   ├── data_types.rb             # Strings, numbers, booleans, nil
+│   ├── working_with_strings.rb   # String manipulation methods
+│   ├── math_and_numbers.rb       # Arithmetic operations
+│   └── getting_user_input.rb     # Interactive input with gets.chomp
+│
+├── 02-control-flow/              # Decision making and loops
+│   ├── if_statements.rb          # Conditional logic
+│   ├── compare.rb                # Comparison operators
+│   ├── case_expressions.rb       # Switch-case logic
+│   ├── while_loops.rb            # While loop iteration
+│   └── for_loops.rb              # For loop iteration
+│
+├── 03-data-structures/           # Collections and data organization
+│   ├── arrays.rb                 # Array creation and methods
+│   └── hashing.rb                # Hash data structures
+│
+├── 04-functions/                 # Methods and reusable code
+│   ├── methods.rb                # Function definitions
+│   ├── returns.rb                # Return values from methods
+│   └── exponent_method.rb        # Custom mathematical methods
+│
+├── 05-oop/                       # Object-oriented programming
+│   ├── classes_objects.rb        # Class definitions
+│   ├── initialize.rb             # Constructor methods
+│   ├── object_methods.rb         # Instance methods
+│   └── inheritance.rb            # Class inheritance
+│
+├── 06-modules/                   # Code organization across files
+│   ├── useful_tools.rb           # Module definition
+│   └── modules.rb                # Module usage with require_relative
+│
+├── 07-file-io/                   # File operations
+│   ├── reading_files.rb          # Reading from files
+│   ├── writing_files.rb          # Writing to files
+│   ├── employees.txt             # Sample data file
+│   ├── employees2.txt            # Sample output file
+│   ├── employees3.txt            # Sample output file
+│   └── index.html                # Sample HTML file
+│
+├── 08-error-handling/            # Exception handling
+│   └── handle_errors.rb          # begin/rescue/end blocks
+│
+├── projects/                     # Complete practice projects
+│   ├── addition_calculator.rb    # Simple calculator
+│   ├── four_function_calculator.rb # Extended calculator
+│   ├── madlib.rb                 # Interactive story
+│   ├── guessing_game.rb          # Number guessing game
+│   ├── build_quiz.rb             # Quiz application with classes
+│   └── INTERACTIVE_RUBY.md       # IRB documentation and usage
+│
+├── .gitignore                    # Git ignore rules
+├── LEARNING_PATH.md              # Detailed learning guide
+└── README.md                     # This file
+```
+
+## Getting Started
+
+### Prerequisites
+
+- Ruby installed on your system (version 2.5 or higher recommended)
+- A text editor or IDE
+- Terminal/command line access
+
+### Installation
+
+Check if Ruby is installed:
+```bash
+ruby --version
+```
+
+If not installed, visit https://www.ruby-lang.org/en/downloads/
+
+### Running the Examples
+
+1. Clone or download this repository
+2. Navigate to the desired directory:
+   ```bash
+   cd LearnRuby/01-fundamentals
+   ```
+3. Run any Ruby file:
+   ```bash
+   ruby filename.rb
+   ```
+
+Example:
+```bash
+cd LearnRuby/projects
+ruby guessing_game.rb
+```
+
+### Recommended Learning Path
+
+For the best learning experience, follow the order in **LEARNING_PATH.md**. This guide provides a structured progression through all concepts with detailed explanations for each file.
+
+## Learning Path
+
+This repository is organized into progressive modules. For a detailed step-by-step guide through all files, see **LEARNING_PATH.md**.
+
+### Quick Overview
+
+**Phase 1: Fundamentals** (01-fundamentals/)
+Start here to learn basic syntax, variables, data types, strings, and user input.
+
+**Phase 2: Data Structures** (03-data-structures/)
+Learn to organize data with arrays and hashes.
+
+**Phase 3: Control Flow** (02-control-flow/)
+Master conditionals, loops, and program flow.
+
+**Phase 4: Functions** (04-functions/)
+Write reusable code with methods.
+
+**Phase 5: Object-Oriented Programming** (05-oop/)
+Understand classes, objects, and inheritance.
+
+**Phase 6: Code Organization** (06-modules/)
+Organize code across multiple files with modules.
+
+**Phase 7: File Operations** (07-file-io/)
+Read from and write to external files.
+
+**Phase 8: Error Handling** (08-error-handling/)
+Handle exceptions gracefully.
+
+**Practice Projects** (projects/)
+Apply your knowledge with complete applications that combine multiple concepts.
+
+## Key Features
+
+- **Extensive Comments**: Each file includes detailed explanations
+- **Section Dividers**: Clear visual separation of concepts
+- **Progressive Difficulty**: Concepts build upon each other
+- **Practical Examples**: Real-world applications
+- **Multiple Approaches**: Different ways to solve problems
+- **Best Practices**: Demonstrates clean code principles
+
+## Project Highlights
+
+### Guessing Game (projects/guessing_game.rb)
+Demonstrates:
+- While loops with multiple conditions
+- User input validation
+- Game logic with limited attempts
+- Boolean flags
+
+### Build Quiz (projects/build_quiz.rb)
+Demonstrates:
+- Class definitions with attributes
+- Array iteration
+- Score tracking
+- Object instantiation
+
+### Module System (06-modules/)
+Demonstrates:
+- Code organization across files
+- `require_relative` usage
+- Module inclusion
+- Namespace management
+
+### File Operations (07-file-io/)
+Demonstrates:
+- Reading files multiple ways
+- Writing and appending to files
+- File modes (read, write, append, read/write)
+- Automatic file closing with blocks
+
+## Code Style
+
+This repository follows Ruby conventions:
+- **Indentation**: 2 spaces
+- **Comments**: Descriptive and educational
+- **Naming**: snake_case for variables and methods
+- **Section Headers**: ASCII separators for clarity
+- **Multi-line Comments**: Using `=begin` and `=end` for longer explanations
+
+## Common Ruby Methods Covered
+
+**String Methods**: `.upcase`, `.downcase`, `.strip`, `.length`, `.include?`, `.index`, `.[]`
+
+**Array Methods**: `.push`, `.pop`, `.shift`, `.unshift`, `.sort`, `.include?`, `.length`, `.[]`
+
+**Hash Methods**: Key-value access, hash traversal
+
+**File Methods**: `.open`, `.read`, `.readline`, `.readlines`, `.readchar`, `.write`, `.close`
+
+**Math Operations**: `+`, `-`, `*`, `/`, `%`, `**`, `.abs`, `.round`, `.ceil`, `.floor`
+
+## Learning Tips
+
+1. **Read the comments first** - Understand what each section does before running it
+2. **Modify the code** - Change values and see what happens
+3. **Break things intentionally** - Learn from errors
+4. **Type it out** - Don't just copy/paste; type the code to build muscle memory
+5. **Experiment** - Try different approaches to the same problem
+6. **Run frequently** - Test small changes as you go
+7. **Follow LEARNING_PATH.md** - Use the structured guide for best results
+
+## Additional Resources
+
+- **Official Ruby Documentation**: https://docs.ruby-lang.org/en/master/index.html
+- **freeCodeCamp Course**: https://www.youtube.com/watch?v=t_ispmWmdjY&t=474s
+- **Ruby Style Guide**: https://rubystyle.guide/
+- **Practice Challenges**: Codewars, LeetCode, HackerRank
+
+## Contributing
+
+This is a personal learning repository, but suggestions for improvements are welcome! If you notice any errors or have ideas for additional examples, feel free to suggest them.
+
+## License
+
+This project is for educational purposes. Feel free to use and modify for your own learning.
+
+## Acknowledgments
+
+Created as a comprehensive Ruby learning resource for beginners to gain hands-on experience with fundamental programming concepts.
+
+---
+
+Happy Learning!
